@@ -1,2 +1,16 @@
-theme: minima
 title: Manual Git em Português
+author: Anderson de Matos Guimarães
+description: Tradução e adaptação do livro Pro Git, com estrutura modular e conteúdo técnico em português.
+theme: minima
+
+markdown: kramdown
+permalink: pretty
+show_excerpts: true
+
+# Exibe o índice como página inicial (opcional)
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
